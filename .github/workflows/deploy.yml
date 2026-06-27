@@ -59,6 +59,6 @@ jobs:
 
     - name: Verify Rollout Status
       run: |
-        kubectl rollout restart deployment/backend-deployment -n tienda
-        kubectl rollout restart deployment/frontend-deployment -n tienda
-        kubectl rollout status deployment/backend-deployment -n tienda
+        kubectl rollout restart deployment/tienda-backend -n tienda
+        kubectl rollout restart deployment/tienda-frontend -n tienda
+        kubectl rollout status deployment/tienda-backend -n tienda
