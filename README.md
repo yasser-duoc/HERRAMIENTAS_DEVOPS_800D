@@ -1,8 +1,8 @@
-# Innovatech Chile - Plataforma de Gestión de Alimentos 🐶
+# Innovatech Chile - Plataforma de Gestión de Alimentos 
 
 
 
-## 🛠️ Arquitectura del Repositorio
+##  Arquitectura del Repositorio
 
 A continuación se detalla la estructura de directorios del proyecto, organizando de forma independiente cada componente de la aplicación y sus respectivos manifiestos de configuración:
 
@@ -14,7 +14,7 @@ A continuación se detalla la estructura de directorios del proyecto, organizand
 
 ---
 
-## 🚀 Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 *   **Orquestador:** Amazon EKS (Elastic Kubernetes Service)
 *   **CI/CD Pipeline:** GitHub Actions
@@ -24,7 +24,7 @@ A continuación se detalla la estructura de directorios del proyecto, organizand
 
 ---
 
-## 📂 Componentes e Infraestructura de Código
+##  Componentes e Infraestructura de Código
 
 ### 1. Dockerización (Microservicios)
 Cada componente posee su propio ciclo de vida y empaquetado aislado:
@@ -43,7 +43,7 @@ El despliegue dentro de Amazon EKS se maneja de manera declarativa a través de 
 
 ---
 
-## 🔄 Pipeline CI/CD (`.github/workflows/deploy.yml`)
+## Pipeline CI/CD (`.github/workflows/deploy.yml`)
 
 El flujo automatizado se dispara ante cada evento de `push` en la rama `main` y realiza los siguientes pasos de manera secuencial:
 
@@ -57,7 +57,7 @@ El flujo automatizado se dispara ante cada evento de `push` en la rama `main` y 
 
 ---
 
-## 🔧 Configuración de Variables y Secretos
+##  Configuración de Variables y Secretos
 
 Para que el pipeline opere de manera correcta sin exponer datos sensibles, se deben configurar los siguientes **GitHub Secrets** en el repositorio:
 
@@ -68,7 +68,7 @@ Para que el pipeline opere de manera correcta sin exponer datos sensibles, se de
 
 ---
 
-## 💻 Instrucciones de Despliegue Local / Manual
+##  Instrucciones de Despliegue Local / Manual
 
 En caso de requerir un despliegue manual o pruebas de diagnóstico, ejecute el script provisto en la raíz:
 
