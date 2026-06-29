@@ -1,4 +1,4 @@
-# Innovatech Chile - Plataforma de Gestión de Alimentos 
+# Innovatech Chile 
 
 
 
