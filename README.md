@@ -1,4 +1,4 @@
-# Innovatech Chile 800D
+# Innovatech Chile
 
 
 
